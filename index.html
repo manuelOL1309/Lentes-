@@ -1,57 +1,143 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Lentes y Estilo</title>
+    <meta charset="UTF-8">
+    <title>Mi pagina de deportes</title>
 </head>
-<body bgcolor="#eeeeee">
+<body>
 
-<center>
-    <h1>LENTES Y ESTILO</h1>
-    <h3>Los mejores lentes para ti</h3>
-</center>
+    <!-- Encabezado principal -->
+    <header style="background-color: #1e3a8a; color: white; padding: 20px; text-align: center; border-radius: 8px;">
+        <h1>Estadisticas deportivas</h1>
+    </header>
 
-<hr>
+    <!-- Menú de Botones para navegar -->
+    <div style="text-align: center; margin: 20px 0;">
+        <a href="#futbol" style="background-color: #10b981; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block;">Fútbol</a>
+        <a href="#basquet" style="background-color: #10b981; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block;">Básquetbol</a>
+        <a href="#americano" style="background-color: #10b981; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block;">Americano</a>
+        <a href="#beisbol" style="background-color: #10b981; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block;">Béisbol</a>
+    </div>
 
-<h2>Bienvenidos</h2>
-<p>Bienvenidos a nuestra tienda. Tenemos lentes de sol para todos los gustos y estilos.</p>
+    <main>
+        <!-- 1. FÚTBOL (Liga MX - Posiciones) -->
+        <section id="futbol" style="margin-top: 40px;">
+            <h2>Fútbol (Liga MX) - Tabla de Posiciones</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                <thead>
+                    <tr style="background-color: #f3f4f6;">
+                        <th style="padding: 8px;">Pos</th>
+                        <th style="padding: 8px;">Equipo</th>
+                        <th style="padding: 8px;">JJ</th>
+                        <th style="padding: 8px;">Pts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td style="padding: 8px; text-align: center;">1</td><td style="padding: 8px;">América</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">29</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">2</td><td style="padding: 8px;">Guadalajara</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">29</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">3</td><td style="padding: 8px;">Cruz Azul</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">29</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">4</td><td style="padding: 8px;">Atlas</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">27</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">5</td><td style="padding: 8px;">Toluca</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">24</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px;">Tijuana</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">22</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">7</td><td style="padding: 8px;">Leon</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">22</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">8</td><td style="padding: 8px;">Santos</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">22</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">9</td><td style="padding: 8px;">Monterrey</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">21</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">10</td><td style="padding: 8px;">Pumas</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">20</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">11</td><td style="padding: 8px;">Queretaro</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">20</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">12</td><td style="padding: 8px;">Pachuca</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">19</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">13</td><td style="padding: 8px;">San Luis</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">19</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px;">Puebla</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">16</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px;">Tigres</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">15</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">16</td><td style="padding: 8px;">Atlante</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">14</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">17</td><td style="padding: 8px;">Necaxa</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">10</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">18</td><td style="padding: 8px;">Juarez</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">8</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-<h2>Sobre nosotros</h2>
-<p>Somos una tienda que vende lentes modernos y de buena calidad para hombres y mujeres.</p>
+        <!-- 2. BÁSQUETBOL (NBA - Conferencia Oeste o General de ejemplo) -->
+        <section id="basquet" style="margin-top: 40px;">
+            <h2>Básquetbol (LNBP) - Tabla de Posiciones</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                <thead>
+                    <tr style="background-color: #f3f4f6;">
+                        <th style="padding: 8px;">Pos</th>
+                        <th style="padding: 8px;">Equipo</th>
+                        <th style="padding: 8px;">JJ</th>
+                        <th style="padding: 8px;">G - P</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td style="padding: 8px; text-align: center;">1</td><td style="padding: 8px;">Soles de Mexicali</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">21 - 7</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">2</td><td style="padding: 8px;">Astros de Jalisco</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">20 - 8</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">3</td><td style="padding: 8px;">Fuerza Regia</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">19 - 9</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">4</td><td style="padding: 8px;">Panteras de Aguascalientes</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">19 - 9</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">5</td><td style="padding: 8px;">Lobos Plateados</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">18 - 10</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px;">Dorados de Chihuahua</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">17 - 11</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">7</td><td style="padding: 8px;">	Mineros de Zacatecas</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">15 - 13</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">8</td><td style="padding: 8px;">Abejas de León</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">12 - 16</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">9</td><td style="padding: 8px;">Santos de San Luis</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">11 - 17</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">10</td><td style="padding: 8px;">Diablos Rojos</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">11 - 17</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">11</td><td style="padding: 8px;">Gambusinos</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">11 - 17</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">12</td><td style="padding: 8px;">Freseros de Irapuato</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">9 - 19</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">13</td><td style="padding: 8px;">El Calor de Cancún</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">9 - 19</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px;">Correcaminos UAT</td><td style="padding: 8px; text-align: center;">28</td><td style="padding: 8px; text-align: center;">4 - 24</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-<hr>
+        <!-- 3. FÚTBOL AMERICANO (NFL - Posiciones de Conferencia) -->
+        <section id="americano" style="margin-top: 40px;">
+            <h2>Fútbol Americano (LFA) - Posiciones</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                <thead>
+                    <tr style="background-color: #f3f4f6;">
+                        <th style="padding: 8px;">Pos</th>
+                        <th style="padding: 8px;">Equipo</th>
+                        <th style="padding: 8px;">JJ</th>
+                        <th style="padding: 8px;">G - P</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td style="padding: 8px; text-align: center;">1</td><td style="padding: 8px;">Caudillos</td><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px; text-align: center;">5 - 1</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">2</td><td style="padding: 8px;">Osos</td><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px; text-align: center;">5 - 1</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">3</td><td style="padding: 8px;">Dinos</td><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px; text-align: center;">4 - 2</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">4</td><td style="padding: 8px;">Raptors</td><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px; text-align: center;">3 - 3</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">5</td><td style="padding: 8px;">Reyes</td><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px; text-align: center;">2 - 4</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px;">Gallos negros</td><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px; text-align: center;">1 - 5</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">7</td><td style="padding: 8px;">Mexicas</td><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px; text-align: center;">1 - 5</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-<center>
-<h2>Nuestros productos</h2>
-</center>
+        <!-- 4. BÉISBOL (MLB - Posiciones de Equipos) -->
+        <section id="beisbol" style="margin-top: 40px; margin-bottom: 50px;">
+            <h2>Béisbol (LMP) - Posiciones</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                <thead>
+                    <tr style="background-color: #f3f4f6;">
+                        <th style="padding: 8px;">Pos</th>
+                        <th style="padding: 8px;">Equipo</th>
+                        <th style="padding: 8px;">JJ</th>
+                        <th style="padding: 8px;">G - P</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td style="padding: 8px; text-align: center;">1</td><td style="padding: 8px;">Algodoneros de Guasave</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">11 - 3</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">2</td><td style="padding: 8px;">Naranjeros de Hermosillo</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">9 - 5</td></tr>
+                    <tr><td style="padding: 8px; text-align: center;">3</td><td style="padding: 8px;">Águilas de Mexicali</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">9 - 5</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">4</td><td style="padding: 8px;">Charros de Jalisco</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">9 - 6</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">5</td><td style="padding: 8px;">Yaquis de Obregón</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">8 - 6</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">6</td><td style="padding: 8px;">Tomateros de Culiacán</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">7 - 8</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">7</td><td style="padding: 8px;">Venados de Mazatlán</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">7 - 8</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">8</td><td style="padding: 8px;">Cañeros de Los Mochis</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">5 - 9</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">9</td><td style="padding: 8px;">Mayos de Navojoa</td><td style="padding: 8px; text-align: center;">14</td><td style="padding: 8px; text-align: center;">4 - 10</td></tr>
+                  <tr><td style="padding: 8px; text-align: center;">10</td><td style="padding: 8px;">Jaguares de Nayarit</td><td style="padding: 8px; text-align: center;">15</td><td style="padding: 8px; text-align: center;">3 - 12</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 
-<h3>Lentes clásicos</h3>
-<img src="https://placehold.co/200x130?text=Clasicos" width="200">
-<p>Precio: $250</p>
-
-<h3>Lentes deportivos</h3>
-<img src="https://placehold.co/200x130?text=Deportivos" width="200">
-<p>Precio: $350</p>
-
-<h3>Lentes modernos</h3>
-<img src="https://http2.mlstatic.com/D_NQ_NP_967701-MLA117176972771_092026-O.webp">
-<p>Precio: $300</p>
-
-<hr>
-
-<h2>Promociones</h2>
-<p>Compra 2 lentes y recibe un 10% de descuento.</p>
-
-<h2>Contacto</h2>
-<p>Correo: lentesyestilo@gmail.com</p>
-<p>Instagram: @lentesyestilo</p>
-
-<hr>
-
-<center>
-<p>Gracias por visitar nuestra página.</p>
-<p>© 2026 Lentes y Estilo</p>
-</center>
-
+    <img src="https://photos.app.goo.gl/1A6Cq6BbXyLgKgCS9">
 </body>
 </html>
